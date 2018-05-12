@@ -1,4 +1,4 @@
-# egg-level
+# egg-leveldb
 
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
@@ -7,18 +7,18 @@
 [![Known Vulnerabilities][snyk-image]][snyk-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: https://img.shields.io/npm/v/egg-level.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/egg-level
-[travis-image]: https://img.shields.io/travis/eggjs/egg-level.svg?style=flat-square
-[travis-url]: https://travis-ci.org/eggjs/egg-level
-[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-level.svg?style=flat-square
-[codecov-url]: https://codecov.io/github/eggjs/egg-level?branch=master
-[david-image]: https://img.shields.io/david/eggjs/egg-level.svg?style=flat-square
-[david-url]: https://david-dm.org/eggjs/egg-level
-[snyk-image]: https://snyk.io/test/npm/egg-level/badge.svg?style=flat-square
-[snyk-url]: https://snyk.io/test/npm/egg-level
-[download-image]: https://img.shields.io/npm/dm/egg-level.svg?style=flat-square
-[download-url]: https://npmjs.org/package/egg-level
+[npm-image]: https://img.shields.io/npm/v/egg-leveldb.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/egg-leveldb
+[travis-image]: https://img.shields.io/travis/eggjs/egg-leveldb.svg?style=flat-square
+[travis-url]: https://travis-ci.org/eggjs/egg-leveldb
+[codecov-image]: https://img.shields.io/codecov/c/github/eggjs/egg-leveldb.svg?style=flat-square
+[codecov-url]: https://codecov.io/github/eggjs/egg-leveldb?branch=master
+[david-image]: https://img.shields.io/david/eggjs/egg-leveldb.svg?style=flat-square
+[david-url]: https://david-dm.org/eggjs/egg-leveldb
+[snyk-image]: https://snyk.io/test/npm/egg-leveldb/badge.svg?style=flat-square
+[snyk-url]: https://snyk.io/test/npm/egg-leveldb
+[download-image]: https://img.shields.io/npm/dm/egg-leveldb.svg?style=flat-square
+[download-url]: https://npmjs.org/package/egg-leveldb
 
 <!--
 Description here.
@@ -27,7 +27,7 @@ Description here.
 ## Install
 
 ```bash
-$ npm i egg-level --save
+$ npm i egg-leveldb --save
 ```
 
 ## Usage
@@ -36,7 +36,7 @@ $ npm i egg-level --save
 // {app_root}/config/plugin.js
 exports.level = {
   enable: true,
-  package: 'egg-level',
+  package: 'egg-leveldb',
 };
 ```
 

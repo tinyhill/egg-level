@@ -1,5 +1,5 @@
 {
-  "name": "egg-level",
+  "name": "egg-leveldb",
   "version": "1.0.0",
   "description": "LevelDB plugin for egg",
   "eggPlugin": {
@@ -44,12 +44,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggjs/egg-level.git"
+    "url": "git+https://github.com/eggjs/egg-leveldb.git"
   },
   "bugs": {
     "url": "https://github.com/eggjs/egg/issues"
   },
-  "homepage": "https://github.com/eggjs/egg-level#readme",
+  "homepage": "https://github.com/eggjs/egg-leveldb#readme",
   "author": "tinyhill",
   "license": "MIT"
 }

@@ -1,6 +1,6 @@
 {
   "name": "egg-leveldb",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "LevelDB plugin for egg",
   "eggPlugin": {
     "name": "leveldb"
@@ -11,7 +11,8 @@
     "egg-plugin"
   ],
   "dependencies": {
-    "level": "^3.0.1"
+    "level": "^3.0.1",
+    "mkdirp": "^0.5.1"
   },
   "devDependencies": {
     "autod": "^3.0.0",

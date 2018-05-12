@@ -7,9 +7,9 @@ const path = require('path');
 
 module.exports = app => {
 
-  const rootDir = path.join(app.baseDir, 'leveldb');
+  const appRoot = path.join(app.baseDir, 'leveldb');
 
-  if (!fs.existsSync(rootDir)) mkdirp.sync(rootDir);
+  if (!fs.existsSync(appRoot)) mkdirp.sync(appRoot);
 
-  app.leveldb = level(path.join(rootDir, app.config.leveldb.location));
+  app.leveldb = level(path.join(appRoot, app.config.leveldb.location));
 };

@@ -1,9 +1,9 @@
 {
   "name": "egg-leveldb",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "LevelDB plugin for egg",
   "eggPlugin": {
-    "name": "level"
+    "name": "leveldb"
   },
   "keywords": [
     "egg",

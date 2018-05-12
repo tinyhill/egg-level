@@ -2,9 +2,9 @@
 
 /**
  * egg-leveldb default config
- * @member Config#level
+ * @member Config#leveldb
  * @property {String} location - 数据库文件存储位置
  */
-exports.level = {
+exports.leveldb = {
   location: 'default',
 };

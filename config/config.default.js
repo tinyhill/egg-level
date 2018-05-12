@@ -6,5 +6,5 @@
  * @property {String} location - 数据库文件存储位置
  */
 exports.level = {
-    location: 'default',
+  location: 'default',
 };

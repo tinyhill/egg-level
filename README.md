@@ -34,7 +34,7 @@ $ npm i egg-leveldb --save
 
 ```js
 // {app_root}/config/plugin.js
-exports.level = {
+exports.leveldb = {
   enable: true,
   package: 'egg-leveldb',
 };
@@ -44,7 +44,8 @@ exports.level = {
 
 ```js
 // {app_root}/config/config.default.js
-exports.level = {
+exports.leveldb = {
+  location: 'default', // defaults to {app_root}/leveldb/default
 };
 ```
 

@@ -47,7 +47,7 @@ egg-leveldb 版本 | egg 1.x
 
 ```js
 // config/plugin.js
-exports.level = {
+exports.leveldb = {
   enable: true,
   package: 'egg-leveldb',
 };
